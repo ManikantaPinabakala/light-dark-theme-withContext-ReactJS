@@ -1,0 +1,40 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.website-logo {
+  height: 40px;
+  width: 48px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.link {
+  color: #1e293b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.theme {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.navbar-dark-container {
+  background-color: #333333;
+  border-bottom: none;
+}
+
+.link-dark {
+  color: #ffffff;
+}
